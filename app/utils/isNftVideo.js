@@ -6,6 +6,11 @@ export async function isNftVideo(url) {
         url.endsWith('avi')) {
         return true;
     }
+    if (url.endsWith('png') ||
+        url.endsWith('jpg') ||
+        url.endsWith('gif')) {
+        return false;
+    }
     try {
         const response = await fetch(url);
         const arrayBuffer = await response.arrayBuffer();

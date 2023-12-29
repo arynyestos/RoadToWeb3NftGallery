@@ -203,11 +203,11 @@ export default function Home() {
 
       <div className='flex flex-wrap gap-y-12 mt-4 w-5/6 gap-x-5 justify-center'>
         {
-          displayedNFTs.length && displayedNFTs.map(nft => {
+          displayedNFTs ? displayedNFTs.map(nft => {
             return (
               <NFTCard nft={nft} />
             )
-          })
+          }) : null
         }
         {/* {
           displayedNFTs.length ? <NFTCard nft={displayedNFTs[5]} /> : null
