@@ -1,6 +1,6 @@
 # NFT Gallery
 
-On this project we created an NFT gallery that can display all the NFTs owned by a wallet, filter by collection or fetch all the NFTs of a collection. Also, it allows for searching on five different networks, Ethereum, Sepolia, Polygon, Arbitrum and Optimism. It also has a very slick pagination system. The full walkthrough can be found [here](https://docs.alchemy.com/docs/how-to-create-an-nft-gallery), however, several improvements were made that can only be seen in the code in this repo, such as video support for the NFTs' metadata, placeholders for NFTs with no image, same size for all NFT cards, etc. Check out the video demo below!
+On this project we created an NFT gallery with Next.js and Tailwind that can display all the NFTs owned by a wallet, filter by collection or fetch all the NFTs of a collection. Also, it allows for searching on five different networks, Ethereum, Sepolia, Polygon, Arbitrum and Optimism. It also has a very slick pagination system. The full walkthrough can be found [here](https://docs.alchemy.com/docs/how-to-create-an-nft-gallery), however, several improvements were made that can only be seen in the code in this repo, such as video support for the NFTs' metadata, placeholders for NFTs with no image, same size for all NFT cards, etc. Check out the video demo below!
 
 ## Demo
 
